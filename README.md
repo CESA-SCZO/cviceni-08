@@ -26,12 +26,12 @@ uv sync
 - Zobrazte si do jednoho figure původní barevný obraz, segmentační masku a obraz, ve kterém budou mít pouze zelené úchyty svou původní barvu a všechno ostatní bude černé.
 
 **Úkol 3:**
-- Načtěte obraz ‘okruh.png’ a převeďte jej do šedotónového
-- Nastavte vhodnou pozici semínka na vysegmentování cest okruhu
-- Prozkoumejte přiložené funkce region_growing() a Exploration_of_neighbourhood(). Co je vstupem, co výstupem? 
-- Porovnejte výslednou segmentační masku získané použitím přiložené funkce a masku získanou pomocí prahování se stejnou hodnotou prahu
-- Upravte funkci tak, aby využívala na rozrůstání Vámi vybrané dynamické kritérium
-- Měňte pozice semínka a pozorujte jeho vliv na výsledek segmentace
+- Načtěte obraz krtek.jpg, převeďte jej na šedotónový, do rozsahu 0-1 a zobrazte.
+- Obraz filtrujte mediánovým filtrem.
+- Získejte gradientní obraz za pomoci Sobelovy masky v obou směrech.
+- Snižte kvantovací úroveň gradientního obrazu na 3 bity.
+- Aplikujte segmentační metodu rozvodí na tuto parametrickou mapu.
+- Výsledky zobrazte.
 
 **Závěr cvičení:**
 ```
